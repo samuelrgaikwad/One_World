@@ -1,0 +1,242 @@
+
+*{
+    
+    margin: 0%; padding: 0%; 
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:  url(https://i.pinimg.com/originals/e3/f4/a5/e3f4a54ec308ecc2cc05a8cc6765889a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+/* NAVIGATION */
+
+.navbar-brand {
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.nav-link{
+
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+
+             /* MAIN_TAG */
+
+.MAIN{
+
+    width: 100%;
+    height: 85vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: yellow;
+
+}
+
+.MAIN_H3{
+    font-size: 35px; 
+    letter-spacing: 8px;
+    font-weight: bold;
+}
+
+.MAIN_H1{
+    font-size: 75px; 
+    letter-spacing: 8px;
+    font-weight: bolder;
+    text-shadow: 5px, 5px, 5px, 5px;
+    
+
+}
+
+.MAIN_P{
+    font-size: 15px; 
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.SIGN{
+
+  margin: 10px;
+  width: 150px;
+  font-weight: 500;
+}
+
+
+.change_content::after{
+    content: '' ;
+    animation: changetext 10s infinite linear;
+    color: rgb(252, 252, 252);
+}
+
+
+@keyframes changetext{
+   0% {content:"MAHARASHTRA";}
+   20% {content:"GOA";}
+   35% {content:"GUJRAT";}
+   60% {content:"KERALA";}
+   80% {content:"KASHMR";}
+   100% {content:"ASSAM";}
+}
+
+
+
+
+       /* SEE_SECTION */
+
+
+
+#SEE{
+    
+    align-items: center;
+    text-align: center;
+    
+    background-color: rgb(173, 211, 241);
+}
+
+.card{
+    text-align:center;
+    
+}
+
+.places{
+   padding:10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.title{
+    padding-top: 50px;
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+
+
+.para{
+    font-weight: bold;
+    word-spacing: 3px;
+    padding: 19px;
+
+}
+   
+
+
+/* SECTION_VIEW   REVIEW-SECTION */
+
+
+
+.carousel-item{
+    height: 80vh;
+    align-items:center;
+    text-align:center;
+    padding: 3% 10%;
+    background-color: rgb(149, 224, 247);
+}
+    
+.review_image{
+
+    width: 20%;
+    margin: 20px;
+}
+
+             /* CTA_PART */
+
+#cta{
+    background-color: rgb(6, 126, 218);  
+    align-items:center;
+    text-align:center;  
+    padding: 7% 15%;
+}
+
+.cta-heading{
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 1.5;
+   color: white;
+}
+
+
+
+    /* FOTTER */
+
+
+
+#footer{
+    
+    padding: 17px 15%;
+    align-items:center;
+    text-align:center;
+ }
+ 
+ .social-icon{
+     margin: 5px 10px;
+     align-items: center;
+     text-align: center;
+    
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width: 1028px) {
+
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+       
+
+    }
+
+}
+
+
+@media(max-width:550px){
+
+
+
+    .title{
+        padding-top: 50px;
+        font-size: 50px;
+        letter-spacing: 3px;
+    }
+
+      
+
+}
+  
